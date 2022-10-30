@@ -10,6 +10,9 @@
 ## Getting Started
 
 ```
+# Before build
+export NODE_OPTIONS=--openssl-legacy-provider
+
 # Install dependencies
 yarn install
 
