@@ -3,7 +3,7 @@
   "version": "0.1.0-alpha",
   "description": "Free and open-source admin application made with React",
   "author": "Manoj",
-  "homepage": "https://gitnmanoj-bsame.github.io/react-gh-pages",
+  "homepage": "https://manoj-bs.github.io/react_dashboard",
   "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.1.5",
@@ -37,8 +37,8 @@
     "react-query": "^3.16.0",
     "react-router": "6.0.0-beta.0",
     "react-router-dom": "6.0.0-beta.0",
-    "react-scripts": "5.0.1",
-    "recharts": "^2.0.9",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.1.16",
     "source-map-explorer": "^2.5.2",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
@@ -46,14 +46,10 @@
   },
   "scripts": {
     "export": "export NODE_OPTIONS=--openssl-legacy-provider",
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "build": "react-scripts build",
-    "build:staging": "env-cmd -f .env.staging npm run build",
-    "build:production": "env-cmd -f .env.production npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
