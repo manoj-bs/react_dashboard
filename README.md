@@ -5,7 +5,7 @@
 <b>react-material-admin</b> is a free and open-source admin  application including many real-world examples. It is based on React and Material-UI.
 </p>
 
-[![react-material-admin-demo](https://raw.githubusercontent.com/manoj-bs/react_dashboard/main/public/img/template-dark.png)]
+![react-material-admin-demo](https://raw.githubusercontent.com/manoj-bs/react_dashboard/main/public/img/template-dark.png)
 
 ## Getting Started
 
